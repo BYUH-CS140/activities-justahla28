@@ -1,0 +1,70 @@
+
+p {
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    border: 5px solid #254631;
+    padding: 20px;
+}
+
+#mainHeader {
+    background-color: #392bd5;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.light-header {
+    background-color: #6e7ac5;
+}
+
+.shadowed-image {
+    box-shadow: 5px 5px 15px rgb(86, 51, 51);
+}
+
+
+footer {
+    background-color: hsl(230, 39%, 40%);
+    color: white;
+    padding: 10px;
+}
+
+#love {
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #254631;
+    font-weight: bold;
+}
+
+
+
+    /* Styling for the footer section */ footer { background-color: #333; color: #fff; padding: 10px 0; text-align: center; }
+   
+/*Using gradient backgrounds can make your website look more modern and interesting. You can use linear or radial gradients to create different effects.*/
+ .background { background: linear-gradient(to bottom right, #333, #666);}
+
+ /* Animations and transitions can add visual interest to your website and make it more engaging. Use CSS animations and transitions to create effects like hover states, scrolling, and loading animations. */
+ .btn {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
