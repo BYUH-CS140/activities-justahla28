@@ -1,0 +1,140 @@
+
+p {
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    border: 5px solid #254631;
+    padding: 20px;
+}
+
+#mainHeader {
+    background-color: #392bd5;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.light-header {
+    background-color: #6e7ac5;
+}
+
+.shadowed-image {
+    box-shadow: 5px 5px 15px rgb(86, 51, 51);
+}
+
+
+footer {
+    background-color: hsl(230, 39%, 40%);
+    color: white;
+    padding: 10px;
+}
+
+#love {
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #254631;
+    font-weight: bold;
+}
+
+
+
+    /* Styling for the footer section */ footer { background-color: #333; color: #fff; padding: 10px 0; text-align: center; }
+   
+/*Using gradient backgrounds can make your website look more modern and interesting. You can use linear or radial gradients to create different effects.*/
+ .background { background: linear-gradient(to bottom right, #333, #666);}
+
+ /* Animations and transitions can add visual interest to your website and make it more engaging. Use CSS animations and transitions to create effects like hover states, scrolling, and loading animations. */
+ .btn {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+
+  
+/* 1 – Global Setup */
+* {
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* 2 – Base Page Styling */
+body {
+ font-family: "Segoe UI", Arial, sans-serif;
+ background-color: #f2f2f2;
+}
+
+/* 3 – Header Banner */
+#page-header {
+ background-image: url("images/pattern-bg.png");
+ background-size: cover;
+ color: #ffffff;
+ padding: 1rem;
+}
+
+/* 4 – Header Title */
+.title {
+ font-size: 2rem;
+ letter-spacing: 0.05em;
+}
+
+/* 5 – Navigation Bar */
+.nav-list {
+ list-style: none;
+ display: flex;
+ gap: 1rem;
+}
+
+/* 6 – Navigation Items */
+.nav-list > li {
+ padding: 0.25rem 0.75rem;
+ background-color: rgba(255, 255, 255, 0.2);
+ border-radius: 4px;
+}
+
+/* 7 – Navigation Links */
+.nav-list a {
+ text-decoration: none;
+ color: #9594d2;
+ font-size: 1rem;
+}
+
+/* 8 – Navigation Hover Effect */
+.nav-list a:hover {
+ color: #333333;
+ background-color: #ffffff;
+}
+
+/* 9 – Resources List Section */
+.resources {
+ background-color: #ffffff;
+ padding: 1rem;
+ border-radius: 6px;
+ width: 60%;
+ margin: 2rem auto;
+}
+
+/* 10 – Individual Resource Items */
+.resources li {
+ margin-bottom: 0.5rem;
+}
