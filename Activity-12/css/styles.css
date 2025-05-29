@@ -1,0 +1,168 @@
+
+/* Global Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border: 5px solid #254631;
+    padding: 20px;
+}
+
+/* Header Banner */
+#mainHeader {
+    background-color: #392bd5;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Light Header */
+.light-header {
+    background-color: #6e7ac5;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a, .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover, .dropdown:hover .dropbtn {
+    background-color: #111;
+}
+
+nav ul li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Resources List Section */
+.resources {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 6px;
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.resources li {
+    margin-bottom: 0.5rem;
+}
+
+/* Shadowed Image */
+.shadowed-image {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: hsl(230, 39%, 40%);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+#love {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Button */
+.btn {
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Header Title */
+.title {
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+}
+
+/* Navigation List */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+/* Navigation Items */
+.nav-list > li {
+    padding: 0.25rem 0.75rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+/* Navigation Links */
+.nav-list a {
+    text-decoration: none;
+    color: #9594d2;
+    font-size: 1rem;
+}
+
+/* Navigation Hover Effect */
+.nav-list a:hover {
+    color: #333333;
+    background-color: #ffffff;
+}
+
+/* Background Gradient */
+.background {
+    background: linear-gradient(to bottom right, #333, #666);
+}
