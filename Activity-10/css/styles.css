@@ -1,0 +1,163 @@
+/*body {
+  background color: forestgreen;
+  margin: 0;
+  font-family: Gil Sans;
+}
+
+header {
+  background-color: G0ld;
+  color: #004d00;
+  text-align: center;
+  font-size: 2em;
+  paddding: 20px;
+  margin: 0;
+}
+
+.nav {
+  background-color: #2e1a1a;
+  width: 100%;
+  margin: 0;
+  padding: 0 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav li {
+  display: inline;
+  border-right: 1px solid grey;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: gold;
+  font-weight: bold;
+  padding: 14px 16px;
+}
+
+nav a::hover {
+  background-color: gold;
+  color: #2e1a1a;
+}
+
+main {
+  background-color: lightgreen;
+  margin: 50px 100;
+  padding: 50px;
+}
+
+garden {
+  border: 5px solid brown;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px grey;
+  height: 30;
+  width: 30%;
+}
+
+section {
+  margintop: 30px;
+}
+
+h2 {
+  color: brown;
+}
+
+footer {
+  background-color: #2e1a1a;
+  opacity: 0.9;
+  padding: 30px 50px;
+  color: gold;
+  text-align: center;
+} */
+
+body {
+  background-color: forestgreen; 
+  margin: 0;
+  font-family: "Gill Sans", sans-serif; /* Fixed: 'Gil Sans' → 'Gill Sans' with fallback */
+}
+
+header {
+  background-color: gold; /* Fixed: 'G0ld' → 'gold' */
+  color: #004d00;
+  text-align: center;
+  font-size: 2em;
+  padding: 20px; /* Fixed: 'paddding' → 'padding' */
+  margin: 0;
+}
+
+.nav {
+  background-color: #2e1a1a;
+  width: 100%;
+  margin: 0;
+  padding: 0 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav li {
+  display: inline;
+  border-right: 1px solid grey;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: gold;
+  font-weight: bold;
+  padding: 14px 16px;
+}
+
+nav a:hover { /* Fixed: '::hover' → ':hover' */
+  background-color: gold;
+  color: #2e1a1a;
+}
+
+main {
+  background-color: lightgreen;
+  margin: 50px 100px; /* Fixed: added 'px' to second value */
+  padding: 50px;
+}
+
+.garden { /* Fixed: added '.' to make it a class selector */
+  border: 5px solid brown;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px grey;
+  height: 30px; /* Fixed: added 'px' */
+  width: 30%;
+}
+
+section {
+  margin-top: 30px; /* Fixed: 'margintop' → 'margin-top' */
+}
+
+h2 {
+  color: brown;
+}
+
+footer {
+  background-color: #2e1a1a;
+  opacity: 0.9;
+  padding: 30px 50px;
+  color: gold;
+  text-align: center;
+}
