@@ -1,90 +1,95 @@
-p {
-    color: #000000;
-    font-family: Arial, sans-serif;
-}
-
+/* Base (Mobile-First) Styles */
 body {
-    
-    background-color: #334e65;
-    font-family: 'Georgia', serif;
-    margin: 0;
-     padding: 0;
-
-    border: 5px solid #8f5d06;
-    padding: 20px;
-    background-color: rgba(251, 193, 100, 0.616);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-#mainHeader {
-    font-size: 60px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #C19A6B;
-    text-align: center;
-    color: rgba(171, 103, 0, 0.859);
-    padding: 10px 0;
-}
-
-.light-header {
-    background-color: rgb(135, 75, 26);
-}
-
-.shadowed-image {
-    box-shadow: 5px 5px 15px rgb(86, 51, 51);
-}
-
-
-footer {
-    background-color: hsla(39, 89%, 21%, 0.786);
-    color: white;
-    padding: 10px;
-}
-
-#love {
-    font-style: italic;
-    font-weight: bold;
+header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+  border-bottom: 1px solid #444;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #254631;
-    font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
 }
 
-img {
- display: block;
- margin-left: auto;
- margin-right: auto;
- width: 70%; 
+.shadowed-image {
+  width: 100%;
+  max-width: 100%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-
-.video-container {
- display: flex;
- justify-content: center;
- align-items: center;
- height: 100vh;
+main {
+  padding: 15px;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url("images/newzealandback.jpg"); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    font-family: Arial, sans-serif;
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
 }
+
+/* Tablet Styles */
+@media (min-width: 600px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  nav ul li {
+    border-bottom: none;
+    border-right: 1px solid #444;
+  }
+
+  nav ul li:last-child {
+    border-right: none;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+
+  section, h2, ul {
+    grid-column: span 2;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  main {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  section, h2, ul {
+    grid-column: 2;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+}
+
 
 
 

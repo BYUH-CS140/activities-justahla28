@@ -154,3 +154,31 @@ footer {
     width: 300px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .float-img {
+    width: 350px;
+  }
+
+  .column {
+    padding: 20px;
+  }
+
+  .navbar li a {
+    font-size: 1.1rem;
+  }
+}
