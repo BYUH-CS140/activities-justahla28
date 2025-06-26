@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Justin Ah Lam</title>
+  <link rel="stylesheet" type="text/css" href="css/styles1.css">
+</head>
+<body>
+
+  <header>
+    <!-- Mobile Menu Toggle Button -->
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="header-left">
+      <span class="dot"></span>
+      <a href="/activities-justahla28/FinalProject/home.html">Justin Ah Lam</a>
+    </div>
+
+    <nav class="header-right">
+      <a href="/activities-justahla28/FinalProject/resume.html" class="circle-link resume">Resume</a>
+      <a href="/activities-justahla28/FinalProject/projects.html" class="circle-link projects">Projects</a>
+      <a href="/activities-justahla28/FinalProject/educate.html" class="circle-link education">Education</a>
+      <a href="/activities-justahla28/FinalProject/contact.html" class="circle-link contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="projects-section">
+    <h1>Projects</h1>
+
+    <div class="projects-grid">
+      <section class="project">
+        <div class="project-content">
+          <div class="project-text">
+            <h2>FSY NZ 2024</h2>
+            <p contenteditable="true">
+              As an FSY (For the Strength of Youth) Coordinator for the LDS Church in New Zealand, I led the planning and execution of a nationwide youth conference hosting over 850 participants and managing a team of 40+ counselors. I was responsible for coordinating all logistics, including flight arrangements, accommodations, and on-site scheduling to ensure timely and safe arrivals. I oversaw daily programming, meals, entertainment, and spiritual activities, while managing both a health and logistics team to support operations. This role demanded exceptional leadership, organization, and problem-solving skills to deliver a seamless and impactful experience for youth from across the country.
+            </p>
+          </div>
+          <div class="project-image">
+            <img src="images/images.png" alt="Project 1 image">
+          </div>
+        </div>
+      </section>
+
+      <section class="project">
+        <div class="project-content">
+          <div class="project-text">
+            <h2>Web Page Designing Resume</h2>
+            <p contenteditable="true">
+              For my computer science class, we were tasked with creating a functional and visually appealing webpage. I chose to design a personal resume website that highlights my background, skills, and accomplishments. The site includes multiple sections such as a homepage, resume, projects, and contact page, all built using HTML and styled with custom CSS. I implemented responsive design principles to ensure compatibility across devices and used a grid layout to organize content clearly and professionally. This project allowed me to apply front-end development skills in a real-world context and showcase my ability to design and build user-friendly web experiences.
+            </p>
+          </div>
+          <div class="project-image">
+            <img src="images/images.jpg" alt="Project 2 image">
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('.header-right');
+      toggle.addEventListener('click', () => {
+        nav.classList.toggle('open');
+      });
+    });
+  </script>
+
+</body>
+</html>
